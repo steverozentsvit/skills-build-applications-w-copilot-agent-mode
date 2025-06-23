@@ -1,0 +1,625 @@
+Test Case: Validate Medication Lookup Failure Handling
+-----------------------------------------------------
+**Description**: Ensure the system correctly handles cases where the rules engine cannot find a medication in the global medication list.
+
+**Steps**:
+1. Open a chart on the interface.
+2. Go to the Med Therapy tab.
+3. Select a medication from the drop-down list.
+4. Modify the global medication list to remove or rename the selected medication.
+5. Try to save the chart.
+
+**Expected Results**:
+- An error message should appear indicating that the rules engine cannot resolve the medication.
+- The coding report should be disabled.
+- The chart should save in an errored state.
+
+Test Case: Verify Medication Reselection Workflow
+-------------------------------------------------
+**Description**: Verify that reselecting a valid medication resolves the issue.
+
+**Steps**:
+1. Open a chart with an invalid medication selected.
+2. Go to the Med Therapy tab.
+3. Reselect a valid medication from the drop-down list.
+4. Save the chart.
+
+**Expected Results**:
+- The medication should be highlighted in the drop-down list.
+- The chart should save without errors.
+- The coding report should be enabled.
+
+Test Case: Validate UI Behavior for Disabled Tabs
+-------------------------------------------------
+**Description**: Check that the user interface does not save records for disabled chart tabs.
+
+**Steps**:
+1. Open a chart with only the ED tab enabled.
+2. Check the Med Therapy tab for the Observation portion of the chart.
+3. Save the chart.
+
+**Expected Results**:
+- No Med Therapy records should be created for the Observation portion.
+- The chart should save successfully without errors.
+
+Test Case: Test DataLink Record Creation
+-----------------------------------------
+**Description**: Ensure that DataLink does not create erroneous records for disabled chart portions.
+
+**Steps**:
+1. Simulate DataLink creating Med Therapy records for a disabled chart tab (e.g., Observation).
+2. Open the chart in the user interface.
+3. Save the chart.
+
+**Expected Results**:
+- No Med Therapy records should be saved for disabled tabs.
+- The user interface should not propagate invalid records.
+- The chart should save successfully.
+
+Test Case: Test Global Medication List Modifications
+-----------------------------------------------------
+**Description**: Validate the system's behavior when the global medication list is modified.
+
+**Steps**:
+1. Select a medication from the global list and save a chart.
+2. Modify the medication name or remove it from the global list.
+3. Reopen the chart and attempt to save it.
+
+**Expected Results**:
+- The system should prompt the user to reselect a valid medication.
+- An error message should appear if the medication is invalid.
+- The chart should save successfully after a valid medication is reselected.
+
+Test Case: Validate Regression for UI Changes
+---------------------------------------------
+**Description**: Ensure that the UI modifications to prevent saving records for disabled tabs work as expected.
+
+**Steps**:
+1. Open a chart with an enabled ED tab and a disabled Observation tab.
+2. Attempt to save the chart without enabling the Observation tab.
+3. Check the database for any Med Therapy records created for the Observation tab.
+
+**Expected Results**:
+- No records should be created for the Observation tab.
+- The chart should save successfully without errors.
+
+Test Case: Test Script for Back-End Record Creation
+---------------------------------------------------
+**Description**: Verify the script for creating back-end Med Therapy records for testing purposes.
+
+**Steps**:
+1. Execute the script to create Med Therapy records for a disabled chart portion.
+2. Open the chart in the user interface.
+3. Save the chart.
+
+**Expected Results**:
+- The chart should reflect the back-end records created by the script.
+- Errors should appear if the created records are invalid.
+- The chart should save successfully after invalid records are removed.
+
+Test Case: Validate Handling of Timing Issues with Medication List
+------------------------------------------------------------------
+**Description**: Check the system's behavior when a medication is modified after being selected in a chart.
+
+**Steps**:
+1. Select a medication from the global list and save a chart.
+2. Modify the medication description in the global list.
+3. Reopen the chart and attempt to save it.
+
+**Expected Results**:
+- The system should prompt the user to reselect the modified medication.
+- The chart should save successfully after the medication is reselected.
+
+
+
+
+# Medication Workflow Test Cases
+
+This document outlines test cases based on the transcript discussion. It focuses on ensuring the system handles medication errors, user interface workflows, and data integrity correctly.
+
+---
+
+### Test Case 1: Validate Error Message for Invalid Medications
+**Description**: Ensure the system displays an appropriate error message when a medication cannot be resolved by the rules engine.
+
+**Steps**:
+1. Open an existing chart in the UI.
+2. Navigate to the Med Therapy tab.
+3. Select a medication from the drop-down list.
+4. Modify the global medication list to rename or delete the selected medication.
+5. Attempt to save the chart.
+
+**Expected Results**:
+- An error message is displayed: "Coding reports not generated and charges may not go across."
+- The chart is saved, but the coding report is disabled.
+
+---
+
+### Test Case 2: Verify Reselection of Valid Medication
+**Description**: Test the ability to reselect a valid medication to resolve errors.
+
+**Steps**:
+1. Open a chart with an invalid medication selected.
+2. Navigate to the Med Therapy tab.
+3. Reselect a valid medication from the drop-down list.
+4. Save the chart.
+
+**Expected Results**:
+- The newly selected medication is highlighted in the list.
+- The chart saves successfully without errors.
+- The coding report is enabled.
+
+---
+
+### Test Case 3: Validate UI Behavior for Disabled Tabs
+**Description**: Confirm the UI does not propagate records for disabled chart portions.
+
+**Steps**:
+1. Open a chart with only the ED tab enabled.
+2. Verify that the Observation tab is disabled or not visible.
+3. Save the chart.
+
+**Expected Results**:
+- No Med Therapy records are created for the disabled Observation tab.
+- The chart saves successfully without errors.
+
+---
+
+### Test Case 4: Verify DataLink Record Creation
+**Description**: Ensure DataLink does not create erroneous records for disabled tabs.
+
+**Steps**:
+1. Simulate DataLink creating Med Therapy records for a disabled tab (e.g., Observation).
+2. Open the chart in the UI.
+3. Save the chart.
+
+**Expected Results**:
+- No Med Therapy records are saved for disabled tabs.
+- The chart saves successfully without errors.
+
+---
+
+### Test Case 5: Test Global Medication List Modifications
+**Description**: Validate the system's response to modifications in the global medication list.
+
+**Steps**:
+1. Select a medication from the global medication list and save a chart.
+2. Modify the global medication list to rename or delete the selected medication.
+3. Reopen the chart and attempt to save it.
+
+**Expected Results**:
+- The system prompts the user to reselect a valid medication.
+- The chart saves successfully after a valid medication is reselected.
+
+---
+
+### Test Case 6: Validate Resolution for Timing Issues
+**Description**: Test the system's handling of timing issues, such as when the global medication list is updated while a chart is open.
+
+**Steps**:
+1. Open a chart and select a medication from the global medication list.
+2. Modify the medication in the global list while the chart is open.
+3. Attempt to save the chart.
+
+**Expected Results**:
+- The system detects the change and prompts the user to reselect the modified medication.
+- The chart saves successfully after a valid medication is reselected.
+
+---
+
+### Test Case 7: Test Script for Back-End Record Creation
+**Description**: Verify the functionality of a script designed to create Med Therapy records for testing purposes.
+
+**Steps**:
+1. Run the script to create Med Therapy records for a disabled tab (e.g., Observation).
+2. Open the corresponding chart in the UI.
+3. Save the chart.
+
+**Expected Results**:
+- The UI reflects the back-end records created by the script.
+- Errors are displayed for invalid records.
+- The chart saves successfully after invalid records are removed.
+
+---
+
+### Test Case 8: Validate Coding Report Behavior for Errors
+**Description**: Confirm that the coding report is disabled when chart errors are present.
+
+**Steps**:
+1. Open a chart with errors (e.g., invalid medications).
+2. Attempt to access the coding report.
+
+**Expected Results**:
+- The coding report is disabled.
+- An error message is displayed explaining the issue.
+
+---
+
+### Test Case 9: Test Chart Save Behavior with Invalid Records
+**Description**: Ensure the system saves charts with invalid records but marks them as errored.
+
+**Steps**:
+1. Open a chart with an invalid medication or record.
+2. Save the chart.
+
+**Expected Results**:
+- The chart saves successfully but is marked as errored.
+- The coding report is disabled.
+
+---
+
+### Test Case 10: Validate Regression Testing for UI Changes
+**Description**: Ensure that implemented UI changes do not allow saving records for disabled tabs.
+
+**Steps**:
+1. Open a chart with both ED and Observation tabs enabled.
+2. Disable the Observation tab.
+3. Attempt to save the chart.
+
+**Expected Results**:
+- No records are saved for the disabled Observation tab.
+- The chart saves successfully without errors.
+
+---
+
+### Additional Notes
+- A script or automation tool may need to be developed to simulate certain test scenarios, such as DataLink record creation or global medication list modifications.
+- Testing for timing issues requires careful coordination between UI operations and back-end modifications.
+
+---
+
+### Open Questions
+- How will the test script for back-end record creation handle versioning and relational ties for charts?
+- Should the script automatically detect and update invalid medications, or will this be a manual process?
+- Are there any additional edge cases to consider for multi-tab workflows (e.g., ED only, Observation only, ED + Observation)?
+
+---
+
+These test cases aim to cover the key scenarios and challenges discussed in the transcript. Let me know if you need further adjustments or additional details.
+
+
+
+# Test Cases for MIC 100 Error Message in Charts
+
+This document outlines test cases to replicate, validate, and resolve the issue of MIC 100 error messages that prevent charts from being coded and exported.
+
+---
+
+## Test Case 1: Validate MIC 100 Error Message on Chart Save
+**Description**: Ensure that an MIC 100 error message is displayed when saving a chart with unresolved issues.
+
+### Steps:
+1. Open the user interface for chart management.
+2. Create a new chart, ensuring it includes an ED-only or ED/OBS configuration.
+3. Navigate to the MEDS tab and add the following medications:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+4. Save the chart.
+
+### Expected Results:
+- The MICUI1000 error message is displayed on-screen.
+- The "Coding Report" button is greyed out and not clickable.
+- The chart status is marked as "Complete" but shows "Exported = No" in the "View History."
+- No errors or red indicators appear on the chart interface.
+
+---
+
+## Test Case 2: Verify Rules Engine Behavior for MIC 100 Error
+**Description**: Ensure that the rules engine flags the chart as uncodable due to unresolved issues.
+
+### Steps:
+1. Open an existing chart with the medications listed:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+2. Save the chart.
+3. Check the rules engine logs or output for errors.
+
+### Expected Results:
+- The rules engine logs indicate that the chart cannot be coded due to unresolved medication issues.
+- The chart status remains "Complete" but not exported.
+
+---
+
+## Test Case 3: Validate DataLink Integration for Affected Charts
+**Description**: Ensure that DataLink does not contribute to the MIC 100 error by creating invalid records.
+
+### Steps:
+1. Open a chart for a client with DataLink integration.
+2. Add the medications listed:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+3. Save the chart.
+
+### Expected Results:
+- The MICUI1000 error is displayed, and the "Coding Report" button is greyed out.
+- No unexpected or invalid records are created by DataLink.
+- The chart cannot be exported due to the error.
+
+---
+
+## Test Case 4: Test Resolution by Reselecting Medications
+**Description**: Validate that reselecting medications resolves the MIC 100 error.
+
+### Steps:
+1. Open a chart with the MICUI1000 error.
+2. Navigate to the MEDS tab.
+3. Reselect the medications from the drop-down list:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+4. Save the chart.
+
+### Expected Results:
+- The MICUI1000 error is resolved.
+- The "Coding Report" button becomes clickable.
+- The chart status changes to "Exported = Yes" in "View History."
+
+---
+
+## Test Case 5: Validate Export Functionality After Error Resolution
+**Description**: Ensure that charts can be exported after resolving the MIC 100 error.
+
+### Steps:
+1. Open a chart where the MICUI1000 error was resolved.
+2. Click on the "Coding Report" button.
+3. Export the chart.
+
+### Expected Results:
+- The chart generates a coding report successfully.
+- The "Exported" status updates to "Yes" in "View History."
+- No further errors occur during the export process.
+
+---
+
+## Test Case 6: Validate UI Behavior for MIC 100 Error
+**Description**: Ensure that the user interface accurately reflects the MIC 100 error and its resolution.
+
+### Steps:
+1. Open a chart with the MICUI1000 error.
+2. Observe the following UI elements:
+   - Error message display
+   - Coding Report button state (greyed out or clickable)
+   - Chart status in "View History"
+3. Resolve the error by reselecting medications.
+4. Observe the same UI elements after resolution.
+
+### Expected Results:
+- Before resolution:
+  - MICUI1000 error message is displayed.
+  - "Coding Report" button is greyed out.
+  - Chart status is "Complete" but not exported.
+- After resolution:
+  - No error message is displayed.
+  - "Coding Report" button becomes clickable.
+  - Chart status is updated to "Exported = Yes."
+
+---
+
+## Test Case 7: Validate Chart Behavior for ED-Only Configurations
+**Description**: Ensure that ED-only charts are affected by and recover from the MIC 100 error.
+
+### Steps:
+1. Create a new chart with an ED-only configuration.
+2. Add the following medications:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+3. Save the chart.
+4. Resolve the MICUI1000 error by reselecting medications.
+5. Export the chart.
+
+### Expected Results:
+- The chart exhibits the MICUI1000 error before resolution.
+- Reselecting medications resolves the error.
+- The chart can be exported successfully.
+
+---
+
+## Test Case 8: Validate Chart Behavior for ED/OBS Configurations
+**Description**: Ensure that ED/OBS charts are affected by and recover from the MIC 100 error.
+
+### Steps:
+1. Create a new chart with an ED/OBS configuration.
+2. Add the following medications:
+   - Ceftriaxone - Rocephin
+   - Vancomycin - Vancocin - Vancor
+3. Save the chart.
+4. Resolve the MICUI1000 error by reselecting medications.
+5. Export the chart.
+
+### Expected Results:
+- The chart exhibits the MICUI1000 error before resolution.
+- Reselecting medications resolves the error.
+- The chart can be exported successfully.
+
+---
+
+## Test Case 9: Validate Logs for MIC 100 Error Occurrence
+**Description**: Ensure that MIC 100 errors are properly logged for troubleshooting and analysis.
+
+### Steps:
+1. Trigger the MIC 100 error by saving a chart with unresolved medications.
+2. Check the application logs for the error details.
+
+### Expected Results:
+- The logs contain entries for the MIC 100 error.
+- The logs include relevant details, such as the chart ID and medications causing the issue.
+- The logs provide sufficient information for troubleshooting.
+
+---
+
+## Test Case 10: Verify Impact on Export Charges
+**Description**: Ensure that the MIC 100 error prevents affected charts from being exported.
+
+### Steps:
+1. Create a chart with unresolved medications (to trigger the MIC 100 error).
+2. Attempt to export the chart.
+
+### Expected Results:
+- The chart cannot be exported.
+- An error message is displayed to the user, indicating the issue.
+- The chart status remains "Complete" but not exported.
+
+---
+
+These test cases cover the key scenarios and workflows described in the issue. Let me know if you need further refinements or additional details.
+
+
+
+# Test Cases for Medication Error Validation (MIC 100 Scenario)
+
+This document includes test cases designed to validate the occurrence, resolution, and prevention of errors caused by unresolved medication issues in charts. The focus is on scenarios involving the rules engine, global medication list modifications, and DataLink record creation.
+
+---
+
+## Test Case 1: Validate Error Message on Saving Chart
+**Description**: Ensure the system displays an error message when saving a chart with unresolved medication issues.
+
+### Steps:
+1. Create a new chart and navigate to the **MEDS** tab.
+2. Add medications that are valid initially, such as:
+   - **Ceftriaxone - Rocephin**
+   - **Vancomycin - Vancocin - Vancor**
+3. Modify the global medication list to rename or remove one of the medications.
+4. Save the chart.
+
+### Expected Results:
+- An error message is displayed: _"Coding reports not generated, and charges may not go across."_
+- The **"Coding Report" button** is greyed out.
+- The chart status is marked as **"Complete"**, but **Exported = No** in the **View History**.
+
+---
+
+## Test Case 2: Validate Rules Engine Behavior
+**Description**: Ensure the rules engine properly detects unresolved medication issues and flags the chart as uncodable.
+
+### Steps:
+1. Open an existing chart with medications that were recently renamed or removed from the global medication list.
+2. Save the chart.
+3. Check logs from the rules engine.
+
+### Expected Results:
+- The rules engine logs indicate that the chart cannot be coded due to unresolved medications.
+- The chart remains in a **"Complete"** state but is not exported.
+
+---
+
+## Test Case 3: Validate DataLink Record Creation
+**Description**: Validate that DataLink does not create erroneous Med Therapy records for disabled chart portions.
+
+### Steps:
+1. Open a chart for a client with DataLink integration.
+2. Enable the **ED** tab and disable the **Observation (OBS)** tab.
+3. Add medications to the **ED** tab and save the chart.
+4. Check whether DataLink creates erroneous records for the disabled **OBS** tab.
+
+### Expected Results:
+- No records are created for the disabled **OBS** tab.
+- The chart saves without errors.
+
+---
+
+## Test Case 4: Validate Medication Reselection Workflow
+**Description**: Ensure reselecting medications resolves errors and restores functionality.
+
+### Steps:
+1. Open a chart with unresolved medication issues (e.g., MICUI1000 error displayed).
+2. Navigate to the **MEDS** tab.
+3. Reselect valid medications from the drop-down list.
+4. Save the chart.
+
+### Expected Results:
+- The error message is cleared.
+- The **"Coding Report" button** becomes clickable.
+- The chart status updates to **Exported = Yes**.
+
+---
+
+## Test Case 5: Validate UI Behavior for Enabling/Disabling Tabs
+**Description**: Ensure enabling and disabling chart tabs (ED/OBS) works as expected after resolving medication issues.
+
+### Steps:
+1. Open a chart with both the **ED** and **OBS** tabs enabled.
+2. Navigate to the **OBS** tab and clear any erroneous records.
+3. Disable the **OBS** tab and save the chart.
+
+### Expected Results:
+- The **OBS** tab is disabled successfully.
+- No records are saved for the disabled tab.
+- The chart saves without errors.
+
+---
+
+## Test Case 6: Validate Functionality After Global Medication List Update
+**Description**: Validate the system’s behavior when the global medication list is updated after a medication is selected in a chart.
+
+### Steps:
+1. Select a medication from the global list and save a chart.
+2. Modify the global medication list to rename or remove the selected medication.
+3. Reopen the chart and save it.
+
+### Expected Results:
+- The system prompts the user to reselect a valid medication.
+- The chart saves successfully after reselecting a valid medication.
+
+---
+
+## Test Case 7: Validate Prevention Mechanism for DataLink Integration
+**Description**: Ensure DataLink changes prevent erroneous record creation in future scenarios.
+
+### Steps:
+1. Apply the updated DataLink configurations to prevent creating records for disabled tabs.
+2. Open a chart with the **ED** tab enabled and the **OBS** tab disabled.
+3. Save the chart and check for record creation.
+
+### Expected Results:
+- No erroneous records are created for the disabled tab.
+- The updated configurations prevent similar issues in the future.
+
+---
+
+## Test Case 8: Validate Logs for Troubleshooting
+**Description**: Ensure that logs capture sufficient details for troubleshooting errors related to medication lookups.
+
+### Steps:
+1. Trigger the MICUI1000 error by saving a chart with unresolved medications.
+2. Check the application logs for error details.
+
+### Expected Results:
+- Logs include details such as:
+  - Chart ID
+  - Medications causing the issue
+  - Timestamp
+- Logs provide sufficient information for debugging and resolution.
+
+---
+
+## Test Case 9: Validate Export Functionality Post-Resolution
+**Description**: Ensure charts can be exported successfully after resolving medication issues.
+
+### Steps:
+1. Open a chart where medication issues have been resolved.
+2. Click on the **"Coding Report" button**.
+3. Export the chart.
+
+### Expected Results:
+- The coding report is generated successfully.
+- The chart is marked as **Exported = Yes** in the **View History**.
+
+---
+
+## Test Case 10: Validate Edge Cases for Timing Issues
+**Description**: Test the system’s behavior in edge cases where medication lookups fail due to timing issues.
+
+### Steps:
+1. Open a chart and select a medication.
+2. Simultaneously update the global medication list to rename or remove the selected medication.
+3. Save the chart.
+
+### Expected Results:
+- The system detects the change and prompts the user to reselect a valid medication.
+- The chart saves successfully after a valid medication is selected.
+
+---
+
+### Notes
+- These test cases cover the key scenarios, including error detection, corrective actions, and prevention mechanisms.
+- Additional scripts/tools may be required to simulate DataLink integration and global medication list updates.
