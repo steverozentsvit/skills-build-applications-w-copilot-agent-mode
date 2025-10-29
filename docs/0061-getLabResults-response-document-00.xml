@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+      <ehr:TransactionID xmlns:ehr="http://emergis.com/PNP-1.1.xsd">L7_bc2ca7d9-234a-41f6-800f-297df102ef35</ehr:TransactionID>
+   </SOAP-ENV:Header>
+   <soapenv:Body>
+      <tns:Response xmlns:tns="http://www.ssha.ca/2005/HIAL">
+         <tns:Content>MSH|^~\&amp;|^OLIS^X500||^2.16.840.1.113883.3.59.3:0947^ISO||20251028230405-0400||ERP^Z99^ERP_R09|a7fa8a76-c3ac-4705-b340-439ab3f6f278|T|2.3.1||||||8859/1
+MSA|AA|ID-2AF1C0BB97A2B22-00000000000000DB
+ERR|^^^911&amp;The format of the content used in @OBR.7 will be deprecated in the future. Please make necessary changes to your interface to support the standard format defined in the OLIS interface specifications or reach out to eHealth Ontario for further assistance.&amp;HL70357~
+QAK|bbf62effd4fd4dc2a28cae23059777b5|OK|
+ERQ||R09|@OBR.7^19991028000000-0400\T\20251028235959-0400~@QRD.7.1^25~@ZRP.1.1^2.16.840.1.113883.3.59.3:0947~@ZRP.1.2^UNIVERSITY HEALTH NETWORK~@PID.3.1^2000057188~@PID.8^M~@PID.7^20031212~@PID.3.4.2~@PID.3.4.3~@PID.3.5^JHN~@PID.3.9.1^ON~@PID.3.9.3^HL70347~@ZRP.1.13^ISO|
+PID|1||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||PractInactive1^^2.16.840.1.113883.3.59.1:992^ISO|||||20250911101500-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|PractInactive1^^2.16.840.1.113883.3.59.1:992^ISO|PractInactive1^^2.16.840.1.113883.3.59.1:992^ISO|TR10000-8^11-Deoxycortisol^HL79901|||20250911101500-0400|||||||20250911101500-0400|ORH&amp;Other&amp;HL70070|99997^BELIVEAU^LAUREN^NICOLE^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250912131637-0400|||F||1^^^20250911101500-0400^^R||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|22636-5^PATH REPORT.RELEVANT HX:FIND:PT:SPECIMEN:NAR^HL79902|1|\.br\||||||F||||||^
+ZBX|20250912113704-0400|0001|
+BLG|||MOHLTC|
+PID|2||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||PractInactive2^^2.16.840.1.113883.3.59.1:992^ISO|||||20250911101500-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|PractInactive2^^2.16.840.1.113883.3.59.1:992^ISO|PractInactive2^^2.16.840.1.113883.3.59.1:992^ISO|TR10000-8^11-Deoxycortisol^HL79901|||20250911101500-0400|||||||20250911101500-0400|ORH&amp;Other&amp;HL70070|33847^RUSSELL^DEAN^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250912132843-0400|||F||1^^^20250911101500-0400^^R||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|22636-5^PATH REPORT.RELEVANT HX:FIND:PT:SPECIMEN:NAR^HL79902|1|\.br\||||||F||||||^
+ZBX|20250912113704-0400|0001|
+BLG|||MOHLTC|
+PID|3||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||HisReport3^^2.16.840.1.113883.3.59.1:992^ISO|||||20250710101500-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|HisReport3^^2.16.840.1.113883.3.59.1:992^ISO|HisReport3^^2.16.840.1.113883.3.59.1:992^ISO|TR13519-4^CNS molecular oncology^HL79901|||20250810101500-0400|||||||20250810101500-0400|ORH&amp;Other&amp;HL70070|103947^LINFORD^GEORDIE^ALAN^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250908131656-0400|||F||1^^^20250810101500-0400^^R||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|22636-5^PATH REPORT.RELEVANT HX:FIND:PT:SPECIMEN:NAR^HL79902|1|\.br\||||||F||||||^
+ZBX|20250820023704-0400|0001|
+BLG|||MOHLTC|
+PID|4||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||missingGtr4267^^2.16.840.1.113883.3.59.1:992^ISO|||||20250729000000-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|missingGtr4267^^2.16.840.1.113883.3.59.1:992^ISO|missingGtr4267^^2.16.840.1.113883.3.59.1:992^ISO|TR13096-3^Biomarkers^HL79901|||20250729000000-0400|||||||20250731101500-0400|ORH&amp;Other&amp;HL70070|103947^LINFORD^GEORDIE^ALAN^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250818114417-0400|||F||1^^^20250729000000-0400^^R|4267^Sunnybrook Health Sciences Ctr^Provider Unavailable^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347~101763^MCCLURE^REBECCA^FRANCES^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347|||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|22636-5^PATH REPORT.RELEVANT HX:FIND:PT:SPECIMEN:NAR^HL79902|1|\.br\||||||F||||||^
+ZBX|20250808023704-0400|0001|
+OBX|2|FT|22633-2^Path report.site of origin:Anat:Pt:Specimen:Nar^HL79902|1|A: Removed||||||F||||||^
+ZBX|20250808023704-0400|0002|
+OBX|3|FT|22635-7^PATH REPORT.MICROSCOPIC OBSERVATION:PRID:PT:SPECIMEN:NAR:XXX STAIN^HL79902|1|Specimen Removef.br\||||||F||||||^
+ZBX|20250808023704-0400|0003|
+OBX|4|FT|22637-3^PATH REPORT.FINAL DIAGNOSIS:IMP:PT:SPECIMEN:NAR^HL79902|1|Removed||||||F||||||^
+ZBX|20250808023704-0400|0004|
+OBX|5|ST|19139-5^Pathologist name:Pn:Pt:Provider:Nom^HL79902|1|Sabatini, Peter||||||F||||||^
+ZBX|20250808023704-0400|0005|
+BLG|||MOHLTC|
+PID|5||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||TestGtr1^^2.16.840.1.113883.3.59.1:992^ISO|||||20250729000000-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|TestGtr1^^2.16.840.1.113883.3.59.1:992^ISO|TestGtr1^^2.16.840.1.113883.3.59.1:992^ISO|TR10739-1^Cancer cytogenetics^HL79901|||20250729000000-0400|||||||20250731101500-0400|ORH&amp;Other&amp;HL70070|103947^LINFORD^GEORDIE^ALAN^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250818131724-0400|||F||1^^^20250729000000-0400^^R|4267^Sunnybrook Health Sciences Ctr^Provider Unavailable^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347~101763^MCCLURE^REBECCA^FRANCES^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347|||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|XON12395-0^Reason for lab test:Type:Pt:XXX:Nom^HL79902|1|\.br\||||||F||||||^
+ZBX|20250808023704-0400|0001|
+OBX|2|FT|104720-8^Clinical indication:Find:Pt:\S\Patient:Nar^HL79902|1|A: Removed||||||F||||||^
+ZBX|20250808023704-0400|0002|
+OBX|3|FT|64090-4^Chromosome analysis overall interpretation:Imp:Pt:XXX:Ord:Molgen^HL79902|1|Specimen Removed||||||F||||||^
+ZBX|20250808023704-0400|0003|
+OBX|4|FT|62356-1^Chromosome analysis result in ISCN expression:Find:Pt:Bld/Tiss:Nom:Molgen^HL79902|1|Removed||||||F||||||^
+ZBX|20250808023704-0400|0004|
+OBX|5|FT|XON14220-8^Test Results:Find:Pt:Specimen:Nar^HL79902|1|Removed||||||F||||||^
+ZBX|20250808023704-0400|0004|
+OBX|6|ST|19139-5^Pathologist name:Pn:Pt:Provider:Nom^HL79902|1|FN, LN||||||F||||||^
+ZBX|20250808023704-0400|0006|
+BLG|||MOHLTC|
+PID|6||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||TImmunotest1^^2.16.840.1.113883.3.59.1:992^ISO|||||20250426100000-0500||||||||||||OLIS LAB2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|115 Midair Court^^Brampton^ON^L6T 5M3^CAN^B||
+OBR|1|TImmunotest1^^2.16.840.1.113883.3.59.1:992^ISO|Immunotest1^^2.16.840.1.113883.3.59.1:992^ISO|TR10620-3^C Reactive Protein High Sensitivity^HL79901|||20250426100000-0500|||||||20250426100000-0500|BLD&amp;Whole Blood&amp;HL70070|07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347|^WPN^PH^^^705^2343425^|||||20250428141755-0400|||F||1^^^20250426100000-0500^^R||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|ST|11039-5^C REACTIVE PROTEIN:ACNC:PT:SER/PLAS:ORD^HL79902|2|5||||||F||||||^
+ZBX|20250427000000-0400|1|
+BLG|||MOHLTC|
+PID|7||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|O|LABR||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||HisReport5^^2.16.840.1.113883.3.59.1:992^ISO|||||20250324101500-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||
+OBR|1|HisReport5^^2.16.840.1.113883.3.59.1:992^ISO|HisReport5^^2.16.840.1.113883.3.59.1:992^ISO|TR12853-8^Wheat^HL79901|||20250324101500-0400|||||||20250324101500-0400|ORH&amp;Other&amp;HL70070|103947^LINFORD^GEORDIE^ALAN^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||||||20250910113203-0400|||F||1^^^20250324101500-0400^^R||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2075 Bayview Avenue^^North York^ON^M4N 3M5^CAN^B||||0001|||
+OBX|1|FT|22636-5^PATH REPORT.RELEVANT HX:FIND:PT:SPECIMEN:NAR^HL79902|1|\.br\||||||F||||||^
+ZBX|20250401023704-0400|0001|
+BLG|||MOHLTC|
+PID|8||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctI2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240320215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct17^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct17^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240320215040-0400|||||||20240320215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241122150230-0500|||C||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240320215041-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - Non Susceptible - Sensitivities to follow||||||W||||||^
+ZBX|20240320215041-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag NS - more than 50 X E6 cfu/L||||||C||||||^
+ZBX|20240320215041-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctI2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240320215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct18^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct18^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240320215040-0400|||||||20240320215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241122150230-0500|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct17&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct17&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240320215041-0400|99|
+OBX|2|ST|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|NON SUSCEPTIBILITY|||NS|||F||||||^
+ZBX|20240320215041-0400|101.1|
+OBX|3|ST|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|NS||||||F||||||^
+ZBX|20240320215041-0400|200.100|
+OBX|4|ST|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|NS|||NS|||F||||||^
+ZBX|20240320215041-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^20|||NS|||C||||||^
+ZBX|20240320215041-0400|300.200|
+BLG|||MOHLTC|
+PID|9||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctL2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240316215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct24^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct24^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240316215040-0400|||||||20240316215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028162810-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240316215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|This is testing 2 organism with sensitivites||||||F||||||^
+ZBX|20240316215040-0400||
+OBX|3|CE|32355-0^Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture^HL79902|5:ORG_2|52499004^Pseudomonas aeruginosa (organism)^HL79905||||||F||||||^
+ZBX|20240705132953-0400|900.0551ZR.01|
+OBX|4|ST|32355-0^Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture^HL79902|5_OP_1_GR|This is the second organism||||||F||||||^
+ZBX|20240705132953-0400|900.0551ZP01|
+BLG|||MOHLTC|
+ORC||||cONtelusOctL2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240316215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct25^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct25^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240316215040-0400|||||||20240316215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028162810-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct24&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct24&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240316215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||NS|||F||||||^
+ZBX|20240316215040-0400|101.1|
+BLG|||MOHLTC|
+ORC||||cONtelusOctL2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240316215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|3|cONtelusOct26^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct26^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240316215040-0400|||||||20240316215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028162810-0400|||C|32355-0&amp;Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture&amp;HL79902^5:ORG_2^|1^^^20190904084200-0400^^S||cONtelusOct24&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct24&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||NS|||F||||||^
+ZBX|20240316215040-0400|200.100|
+OBX|2|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^6|||NS|||C||||||^
+ZBX|20240316215040-0400|300.100|
+BLG|||MOHLTC|
+PID|10||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctJ2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240315215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct19^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct19^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240315215040-0400|||||||20240315215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160942-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240315215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - mix flag - Sensitivities to follow||||||W||||||^
+ZBX|20240315215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag than 50 X E6 cfu/L||||||C||||||^
+ZBX|20240315215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctJ2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240315215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct20^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct20^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240315215040-0400|||||||20240315215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160942-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct19&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct19&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240315215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||R|||F||||||^
+ZBX|20240315215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||NS|||F||||||^
+ZBX|20240315215040-0400|200.100|
+OBX|4|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||NI|||F||||||^
+ZBX|20240315215040-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^20|||S|||C||||||^
+ZBX|20240315215040-0400|300.200|
+BLG|||MOHLTC|
+PID|11||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+NTE|1|P|Campus: BCH\.br\Antibiotics in use:\.br\Amox/Clavulin (Clavulin)\.br\To start:\.br\Pip/Tazobactam (Tazocin)|RE^Remark^HL70364
+ZNT|^2.16.840.1.113883.3.59.1:992^ISO|
+PV1|1|I|NDG||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctK2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240705132942-0400|||||||||||||||123 DISNEY LANE^^NORTH YORK^ON^M9L 2N5^CAN^B
+OBR|1|cONtelusOct21^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct21^^2.16.840.1.113883.3.59.1:992^ISO|TR11982-6^Respiratory Culture^HL79901|||20240311215040-0400|||||||20240702172700-0400|RESP&amp;Respiratory&amp;HL70070^^^^&amp;SPUTUM - ICU ONLY - Endotracheal Tube|84375^MCMILLAN^ALEXANDRA^ELIZABETH^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||24:B0055280S|350818|||20241122150621-0500|||C||1^^^20240311215040-0400^^S|86775^HAYANI^OMAR^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347~27476^TOMAN^JOHN^DAVID^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347|||||||||||
+ZBR||OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B||||300.8400|||
+OBX|1|ST|664-3^Microscopic observation:Prid:Pt:XXX:Nom:Gram stain^HL79902|2_RP_GM|Microscopic exam shows :&gt; 25 Neutrophils per low power field \.br\&lt; 10 Epithelial cells per low power field \.br\Many Gram Negative Bacilli||||||F||||||^
+ZBX|20240311215041-0400|100.0170|
+OBX|2|ST|32355-0^Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture^HL79902|5_PARA|.||||||F||||||^
+ZBX|20240311215041-0400|900.0551PARA|
+OBX|3|CE|32355-0^Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture^HL79902|5:ORG_1|52499004^Pseudomonas aeruginosa (organism)^HL79905||||||F||||||^
+ZBX|20240311215041-0400|900.0551ZR.01|
+OBX|4|ST|32355-0^Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture^HL79902|5_OP_1_GR|Pseudomonas aeruginosa (organism)\.br\GROWTH: HEAVY||||||F||||||^
+ZBX|20240311215041-0400|900.0551ZP01|
+BLG|||MOHLTC|
+ORC||||cONtelusOctK2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240705132942-0400|||||||||||||||123 DISNEY LANE^^NORTH YORK^ON^M9L 2N5^CAN^B
+OBR|2|cONtelusOct22^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct22^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240311215040-0400|||||||20240702172700-0400|RESP&amp;Respiratory&amp;HL70070^^^^&amp;SPUTUM - ICU ONLY - Endotracheal Tube|84375^MCMILLAN^ALEXANDRA^ELIZABETH^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||24:B0055280S|350818|||20241122150621-0500|||C|32355-0&amp;Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture&amp;HL79902^5:ORG_1^|1^^^20240311215040-0400^^S|86775^HAYANI^OMAR^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347~27476^TOMAN^JOHN^DAVID^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347|cONtelusOct21&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct21&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B||||950.9000_2|||
+NTE|1|L|Susceptibility Notes:\.br\Antibiotic susceptibility results are interpreted based on\.br\CLSI guidelines unless otherwise stated.|RE^Remark^HL70364
+ZNT|^2.16.840.1.113883.3.59.1:992^ISO|
+OBX|1|ST|18906-8^Ciprofloxacin:Susc:Pt:Isolate:OrdQn^HL79902|ANTI_100.211|SUSCEPTIBLE|||S|||F||||||^
+ZBX|20240311215041-0400|100.211|
+OBX|2|SN|18928-2^Gentamicin:Susc:Pt:Isolate:OrdQn^HL79902|ANTI_100.181|&lt;=^2|||S|||W||||||^
+ZBX|20240311215041-0400|100.181|
+OBX|3|NM|18893-8^Ceftazidime:Susc:Pt:Isolate:OrdQn^HL79902|ANTI_100.281|2|||NS|||F||||||^
+ZBX|20240311215041-0400|100.281|
+NTE|1|L|Note added as part of a result.|RE^Remark^HL70364|
+ZNT|^2.16.840.1.113883.3.59.1:992^ISO|
+BLG|||MOHLTC|
+ORC||||cONtelusOctK2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240705132942-0400|||||||||||||||123 DISNEY LANE^^NORTH YORK^ON^M9L 2N5^CAN^B
+OBR|3|cONtelusOct23^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct23^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240311215040-0400|||||||20240702172700-0400|RESP&amp;Respiratory&amp;HL70070^^^^&amp;SPUTUM - ICU ONLY - Endotracheal Tube|84375^MCMILLAN^ALEXANDRA^ELIZABETH^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347||24:B0055280S|350818|||20241122150621-0500|||C|32355-0&amp;Bacteria identified:Prid:Pt:XXX:Nom:Respiratory culture&amp;HL79902^5:ORG_1^|1^^^20240311215040-0400^^S|86775^HAYANI^OMAR^^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347~27476^TOMAN^JOHN^DAVID^^^^^^^^^MDL^^^^^^^^^ON&amp;Ontario&amp;HL70347|cONtelusOct21&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct21&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|2100 Bovaird Drive East^^Brampton^ON^L6R 3J7^CAN^B||||950.9000_2|||
+NTE|1|L|Susceptibility Notes:\.br\Antibiotic susceptibility results are interpreted based on\.br\CLSI guidelines unless otherwise stated.|RE^Remark^HL70364
+ZNT|^2.16.840.1.113883.3.59.1:992^ISO|
+OBX|1|ST|18970-4^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn^HL79902|ANTI_100.206|SUSCEPTIBLE||||||F||||||^
+ZBX|20240311215041-0400|100.206|
+NTE|1|L|Added as per request - Child Susceptibility |RE^Remark^HL70364|
+ZNT|^2.16.840.1.113883.3.59.1:992^ISO|
+BLG|||MOHLTC|
+PID|12||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctM2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240305215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct27^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct27^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240305215040-0400|||||||20240305215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028163458-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240305215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message with no flags||||||W||||||^
+ZBX|20240305215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctM2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240305215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct28^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct28^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240305215040-0400|||||||20240305215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028163458-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct27&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct27&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240305215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1||||||F||||||^
+ZBX|20240305215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^3||||||F||||||^
+ZBX|20240305215040-0400|200.100|
+BLG|||MOHLTC|
+PID|13||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctH2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240220215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct14^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct14^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240220215040-0400|||||||20240220215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160719-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240220215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - S-DD Susceptible-dose dependant - Sensitivities to follow||||||W||||||^
+ZBX|20240220215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flags S-DD - VS than 50 X E6 cfu/L||||||C||||||^
+ZBX|20240220215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctH2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240220215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct15^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct15^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240220215040-0400|||||||20240220215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160719-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct14&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct14&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240220215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||S-DD|||C||||||^
+ZBX|20240220215040-0400|101.1|
+OBX|3|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||S-DD|||F||||||^
+ZBX|20240220215040-0400|300.100|
+OBX|4|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^20|||S-DD|||F||||||^
+ZBX|20240220215040-0400|300.200|
+BLG|||MOHLTC|
+ORC||||cONtelusOctH2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240220215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|3|cONtelusOct16^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct16^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240220215040-0400|||||||20240220215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160719-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct14&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct14&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|NM|185-9^Ciprofloxacin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.100|0.5|||S-DD|||F||||||^
+ZBX|20240220215040-0400|500.100|
+OBX|2|SN|363-2^Nitrofurantoin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.300|&lt;=^16|||S-DD|||F||||||^
+ZBX|20240220215040-0400|500.300|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||S-DD|||F||||||^
+ZBX|20240220215040-0400|200.100|
+BLG|||MOHLTC|
+PID|14||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctG2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240214215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct11^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct11^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240214215040-0400|||||||20240214215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160553-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240214215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - NInterpretation - Sensitivities to follow||||||W||||||^
+ZBX|20240214215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flags and results in 3 OBRs - VS than 50 X E6 cfu/L||||||C||||||^
+ZBX|20240214215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctG2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240214215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct12^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct12^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240214215040-0400|||||||20240214215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160553-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct11&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct11&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240214215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||NI|||F||||||^
+ZBX|20240214215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||NI|||F||||||^
+ZBX|20240214215040-0400|200.100|
+OBX|4|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||NI|||F||||||^
+ZBX|20240214215040-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^20|||NI|||F||||||^
+ZBX|20240214215040-0400|300.200|
+BLG|||MOHLTC|
+ORC||||cONtelusOctG2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240214215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|3|cONtelusOct13^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct13^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240214215040-0400|||||||20240214215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160553-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct11&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct11&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|NM|185-9^Ciprofloxacin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.100|0.5|||NI|||F||||||^
+ZBX|20240214215040-0400|500.100|
+OBX|2|SN|363-2^Nitrofurantoin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.300|&lt;=^16|||NI|||F||||||^
+ZBX|20240214215040-0400|500.300|
+BLG|||MOHLTC|
+PID|15||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctF2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240211215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct9^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct9^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240211215040-0400|||||||20240211215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160355-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240211215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - Very Susceptible - Sensitivities to follow||||||W||||||^
+ZBX|20240211215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag - VS than 50 X E6 cfu/L||||||C||||||^
+ZBX|20240211215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctF2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240211215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct10^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct10^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240211215040-0400|||||||20240211215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160355-0400|||C|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct9&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct9&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240211215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||VS|||F||||||^
+ZBX|20240211215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||VS|||F||||||^
+ZBX|20240211215040-0400|200.100|
+OBX|4|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||VS|||F||||||^
+ZBX|20240211215040-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^20|||VS|||C||||||^
+ZBX|20240211215040-0400|300.200|
+BLG|||MOHLTC|
+PID|16||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctE2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240209215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct7^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct7^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240209215040-0400|||||||20240209215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160258-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240209215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag Moderately Susceptible \.br\Sensitivities to follow||||||W||||||^
+ZBX|20240209215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag\.br\Colony Count: Equal or Greater than 100 X E6 cfu/L||||||C||||||^
+ZBX|20240209215040-0400||
+OBX|4|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_PARA|non-urine interpretation||||||F||||||^
+ZBX|20240209215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctE2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240209215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct8^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct8^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240209215040-0400|||||||20240209215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160258-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct7&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct7&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240209215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||MS|||F||||||^
+ZBX|20240209215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||MS|||C||||||^
+ZBX|20240209215040-0400|200.100|
+OBX|4|SN|516-5^Trimethoprim+Sulfamethoxazole:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_400.100|&lt;=^20|||MS|||F||||||^
+ZBX|20240209215040-0400|400.100|
+BLG|||MOHLTC|
+PID|17||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctD2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240208215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct5^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct5^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240208215040-0400|||||||20240208215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160122-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240208215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag - Intermediate - Sensitivities to follow||||||W||||||^
+ZBX|20240208215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag - Intermediate than 100 X E6 cfu/L||||||C||||||^
+ZBX|20240208215040-0400||
+OBX|4|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_PARA|non-urine interpretation||||||F||||||^
+ZBX|20240208215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctD2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240208215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct6^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct6^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240208215040-0400|||||||20240208215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028160122-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct5&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct5&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240208215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||I|||F||||||^
+ZBX|20240208215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||I|||F||||||^
+ZBX|20240208215040-0400|200.100|
+OBX|4|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||I|||C||||||^
+ZBX|20240208215040-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^1|||I|||F||||||^
+ZBX|20240208215040-0400|300.200|
+OBX|6|SN|516-5^Trimethoprim+Sulfamethoxazole:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_400.100|&lt;=^20|||I|||F||||||^
+ZBX|20240208215040-0400|400.100|
+OBX|7|NM|185-9^Ciprofloxacin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.100|0.5||||||F||||||^
+ZBX|20240208215040-0400|500.100|
+OBX|8|SN|363-2^Nitrofurantoin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.300|&lt;=^16|||I|||F||||||^
+ZBX|20240208215040-0400|500.300|
+OBX|9|NM|20-8^Amoxicillin+Clavulanate:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_100.25|8|||R|||F||||||^
+ZBX|20240208215040-0400|100.25|
+BLG|||MOHLTC|
+PID|18||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctC2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240207215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct3^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct3^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240207215040-0400|||||||20240207215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028155932-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240207215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag Resistant - \.br\Sensitivities to follow||||||W||||||^
+ZBX|20240207215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag - R \.br\Colony Count: Equal or Greater than 100 X E6 cfu/L||||||C||||||^
+ZBX|20240207215040-0400||
+OBX|4|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_PARA|non-urine interpretation||||||F||||||^
+ZBX|20240207215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctC2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240207215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct4^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct4^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240207215040-0400|||||||20240207215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241028155932-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct3&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct3&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240207215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||R|||F||||||^
+ZBX|20240207215040-0400|101.1|
+OBX|3|SN|76-0^Cefazolin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_200.100|&lt;=^1|||R|||F||||||^
+ZBX|20240207215040-0400|200.100|
+OBX|4|SN|267-5^Gentamicin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.100|&lt;=^1|||R|||F||||||^
+ZBX|20240207215040-0400|300.100|
+OBX|5|SN|508-2^Tobramycin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_300.200|&lt;=^1|||R|||F||||||^
+ZBX|20240207215040-0400|300.200|
+OBX|6|SN|516-5^Trimethoprim+Sulfamethoxazole:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_400.100|&lt;=^20|||I|||F||||||^
+ZBX|20240207215040-0400|400.100|
+OBX|7|NM|185-9^Ciprofloxacin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.100|0.5|||I|||F||||||^
+ZBX|20240207215040-0400|500.100|
+OBX|8|SN|363-2^Nitrofurantoin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.300|&lt;=^16|||R|||F||||||^
+ZBX|20240207215040-0400|500.300|
+OBX|9|NM|20-8^Amoxicillin+Clavulanate:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_100.25|8|||R|||F||||||^
+ZBX|20240207215040-0400|100.25|
+BLG|||MOHLTC|
+PID|19||2000057188^^^^JHN^^^^ON&amp;Ontario&amp;HL70347^^DK||ADAHTurquoise^Ocean^^^^^U||20031212|M|||161 Claremonts St^^Toronto^ON^M6J 2M7^CAN^H||^PRN^PH^^^416^2225678^|||||||||||||||||
+PV1|1|L|||||^^^^^^^^^^^^^^^^^^^^^||||||||||^^^^^^^^^^^^^^^^^^^^^
+ORC||||cONtelusOctA2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240206215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|1|cONtelusOct1^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct1^^2.16.840.1.113883.3.59.1:992^ISO|TR11976-8^Urine Culture^HL79901|||20240206215040-0400|||||||20240206215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241025104746-0400|||F||1^^^20190904084200-0400^^S||||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|CE|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2:ORG_1|112283007^Escherichia coli (organism)^HL79905||||||F||||||^
+ZBX|20240206215040-0400||
+OBX|2|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_BLANK|Test message for Abnormal flag Susceptible - \.br\Sensitivities to follow||||||W||||||^
+ZBX|20240206215040-0400||
+OBX|3|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_OP_1_CC|Test message for Abnormal flag - S \.br\Colony Count: Equal or Greater than 100 X E6 cfu/L||||||C||||||^
+ZBX|20240206215040-0400||
+OBX|4|ST|630-4^Bacteria identified:Prid:Pt:Urine:Nom:Culture^HL79902|2_PARA|non-urine interpretation||||||F||||||^
+ZBX|20240206215040-0400||
+BLG|||MOHLTC|
+ORC||||cONtelusOctA2^^2.16.840.1.113883.3.59.1:992^ISO|||||20240206215040-0400||||||||||||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B||
+OBR|2|cONtelusOct2^^2.16.840.1.113883.3.59.1:992^ISO|cONtelusOct2^^2.16.840.1.113883.3.59.1:992^ISO|TR10695-5^Antibiotic Sensitivity^HL79901|||20240206215040-0400|||||||20240206215040-0400||07319760^SCHMIDT^SARAH^^^^^^^^^^NPL^^^^^^^^^ON&amp;Ontario&amp;HL70347||0409:GV00036S||||20241025104746-0400|||F|630-4&amp;Bacteria identified:Prid:Pt:Urine:Nom:Culture&amp;HL79902^2:ORG_1^|1^^^20190904084200-0400^^S||cONtelusOct1&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO^cONtelusOct1&amp;&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||||||
+ZBR||OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|OLIS Lab1^^^^^&amp;2.16.840.1.113883.3.59.1:991&amp;ISO|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|661 University Avenue Suite 1701^^Toronto^ON^M5G 0A3^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO|1453 Prince Road^^Windsor^ON^N9C 3Z4^CAN^B|OLIS Lab2^^^^^&amp;2.16.840.1.113883.3.59.1:992&amp;ISO||||||
+OBX|1|SN|28-1^Ampicillin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_99|&gt;=^32|||S|||F||||||^
+ZBX|20240206215040-0400|99|
+OBX|2|SN|412-7^Piperacillin+Tazobactam:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_101.1|&lt;=^1|||S|||F||||||^
+ZBX|20240206215040-0400|101.1|
+OBX|3|SN|516-5^Trimethoprim+Sulfamethoxazole:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_400.100|&lt;=^20|||S|||F||||||^
+ZBX|20240206215040-0400|400.100|
+OBX|4|NM|185-9^Ciprofloxacin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.100|0.5|||S|||F||||||^
+ZBX|20240206215040-0400|500.100|
+OBX|5|SN|363-2^Nitrofurantoin:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_500.300|&lt;=^16|||S|||F||||||^
+ZBX|20240206215040-0400|500.300|
+OBX|6|NM|20-8^Amoxicillin+Clavulanate:Susc:Pt:Isolate:OrdQn:MIC^HL79902|ANTI_100.25|8|||S|||F||||||^
+ZBX|20240206215040-0400|100.25|
+BLG|||MOHLTC|
+</tns:Content>
+      </tns:Response>
+   </soapenv:Body>
+</soapenv:Envelope>

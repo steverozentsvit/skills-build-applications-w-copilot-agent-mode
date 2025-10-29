@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <wsse:Security xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+                     xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+                     soap:mustUnderstand="1">
+         <saml2:Assertion xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion"
+                          xmlns:wst="http://docs.oasis-open.org/ws-sx/ws-trust/200512"
+                          xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+                          ID="SamlAssertion-4a91c8efe2d79aa2f492b98d74f46606"
+                          IssueInstant="2025-10-29T02:38:27.898Z"
+                          Version="2.0">
+            <saml2:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity"
+                          NameQualifier="uat.cgta">ssg</saml2:Issuer>
+            <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+               <ds:SignedInfo>
+                  <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                  <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+                  <ds:Reference URI="#SamlAssertion-4a91c8efe2d79aa2f492b98d74f46606">
+                     <ds:Transforms>
+                        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                     </ds:Transforms>
+                     <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+                     <ds:DigestValue>xEuOlbiIZdHkMVOEY7Q4gO4CbF0=</ds:DigestValue>
+                  </ds:Reference>
+               </ds:SignedInfo>
+               <ds:SignatureValue>EnoG1KxLWxKUoy2upEoatMxT3Y3QNM1l5fcraO7U7unkzY6vSAvlrapga6dr4BMUgezLW/M7fbnq&#xD;
+7j0uCUV5fq+l06oLgKqdJOlWKtMgpeU2aatjQmyRqydoiIU4e/0/ypdsYY3skghUxYK+f9cP8tF3&#xD;
+j2lPaCURBkFUYibfmCq9+ERiXB7zm4i0gW3LTsxHLxudX97/XaSQaQt7UmcuXBvJrev0GYD9641X&#xD;
+HREsTm0MPKlpVqoAP8XRtR2DWfZqMfp427ViQ/Kv3jjoyiBPHgvhEcZOGTHGyl2kVortMiu0RJ40&#xD;
++IFhGgns7VWH9YJZxbuYp07LUIgN/WdOv5xVSQ==</ds:SignatureValue>
+               <ds:KeyInfo>
+                  <ds:X509Data>
+                     <ds:X509SubjectName>CN=ssg</ds:X509SubjectName>
+                     <ds:X509Certificate>MIIC4TCCAcmgAwIBAgIJANE6X/pDxUVoMA0GCSqGSIb3DQEBDAUAMA4xDDAKBgNVBAMTA3NzZzAe&#xD;
+Fw0yMjAxMTMxNTE0NDlaFw0yNzAxMTIxNTE0NDlaMA4xDDAKBgNVBAMTA3NzZzCCASIwDQYJKoZI&#xD;
+hvcNAQEBBQADggEPADCCAQoCggEBAIPK4zYJINIR9mkfmARv50c621eWAtcKFfupFeNqX9c7J/Qe&#xD;
+1TM5huKeCQf7oT1BWQoHRuavnamCg4NQHL3tzHPkVpVGATUufn6z4Z8HY+FxWvqF5H6cdg568PBk&#xD;
+iejMDEfvUWxh8+UhH+ZXqcXgk9G0U2brYE/BzOTZA2C118BWxnVCoJepAllAgLt/Ppk9lnZ13ZHz&#xD;
+PW+W/+9muh26HZapQ4zQQbMIyvYCudHGLX5TnFRFxmN6hl23GpGkt1tz+gmwGnej2gynnKCjP9JH&#xD;
+6Xn/wEp1xf7KjZdP786Da4n9UPHyEkKq2jdqGS64K3IsY3Km0zr103+Hpuy7s5LgCHsCAwEAAaNC&#xD;
+MEAwHQYDVR0OBBYEFJ6gSmhMjQ8iU3rgCixxh5BnsadzMB8GA1UdIwQYMBaAFJ6gSmhMjQ8iU3rg&#xD;
+Cixxh5BnsadzMA0GCSqGSIb3DQEBDAUAA4IBAQBrjbZ6s3zVbHIwCz7ENjWWSO9pFk3UataeDgdU&#xD;
+yxx/xKW2QTOQ5K0x5WGAZhbkzr2g0vRovl7YQBaJmXJFtTo0mpys7t7YoE4fY8APEDj6bp1ZOeZi&#xD;
+c9Qm8uUXHW1vRUin+I/BL1d9t51OwjhNa+YhJrBB0+rCc/hxBxkfcTzo4O9tuxuRi57wDurmBNE3&#xD;
+ONIDCA3x8p+hU61Gfer+1lArrLgw5IUnj8nMfkYQMHq+WL798brtNG+boSM5G0L7Xqx56gfL+q00&#xD;
+Fs8UO9PmHcslTSTKw42Vv7fYlLv00IEYcsYoNzIjwf2a5VhIN2wHSJDXCBKZzqa4frY6+5g+GRqQ</ds:X509Certificate>
+                  </ds:X509Data>
+               </ds:KeyInfo>
+            </ds:Signature>
+            <saml2:Subject>
+               <saml2:NameID Format="urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+                             NameQualifier="uat.cgta">createATemplate</saml2:NameID>
+               <saml2:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer">
+                  <saml2:SubjectConfirmationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                                 xsi:type="saml2:KeyInfoConfirmationDataType">
+                     <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                        <ds:X509Data>
+                           <ds:X509Certificate>MIIC9zCCAd+gAwIBAgIJANdc6Orr7VZ5MA0GCSqGSIb3DQEBDAUAMBIxEDAOBgNVBAMMB3RocHNkZXYwHhcNMjQwNzAyMjA1NDA4WhcNMzQwNjMwMjA1NDA4WjASMRAwDgYDVQQDDAd0aHBzZGV2MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx16rQ4eT5D+/xYSuS3UJc3+VWKbOsR9qP6m8eOvkESlybXLt+Mn8vQX89iMYqm/pyUfHyuaLPIjmY1MroMVHNn++p5CbTwgYkNzoZFIiCrUuRcFPIUrnPdc4sLayEW9L4SCcqfEmOG+WFOvRFkRyWWCjInkXZ5i662g3OzoFOi//UMvbIbbmBTNfCMoJeeZKGzSTzc4Tbur/zAW4QWB8AN6LtrXaFL6XRtZUYlPbGEctHm9zS/LYm2NX2+DNfebNvNzOOwVPIPqNEmZY46HU+AY5paZVq7ydAld0JKF8lCEtnoFGByrtR9whDHWM5mbD5XBbywtaOmVIUEk1CoiCjQIDAQABo1AwTjAdBgNVHQ4EFgQUG5C+17tZ5xEPcCUN2++02G7Zh7swHwYDVR0jBBgwFoAUG5C+17tZ5xEPcCUN2++02G7Zh7swDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQwFAAOCAQEAbTv8Nj8+SmwOmzZ6AXkiPShaCVvu8z+1tamf93pK9vhDihAstoZUrVcaVcwluYtr6xisBgU5vSf5WAVt9CH1y2hSK05ggKOXAvJzbctasIt/Wc8whbazjYCQZ9iC3erNm6465Pw1Ijw1BwkNHxKGma44wjzZNUaGfEBDUzITbYDFNRWLO3whCRrbPHxAIBaaqsBKajAgLlmuQZIIIRxCF2NOhaPRzB+yFuTjQg+yJtD3SykU1WfjthYBuFw4/pGjlv3LkB51I6VP8/Gn0MP9tiAvjRxXxtJkxLyi+CXKHDNi21PS61E0Vx67vzXRdJ0IPjBmiVtFGofBmjR80j2Q5Q==</ds:X509Certificate>
+                        </ds:X509Data>
+                     </ds:KeyInfo>
+                  </saml2:SubjectConfirmationData>
+               </saml2:SubjectConfirmation>
+            </saml2:Subject>
+            <saml2:Conditions NotBefore="2025-10-29T02:36:27.898Z"
+                              NotOnOrAfter="2025-10-29T03:38:27.898Z"/>
+            <saml2:AttributeStatement>
+               <saml2:Attribute Name="NameQualifier" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>uat.cgta</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="uao" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>1.3.6.1.4.1.12201</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="uaotype" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>ORG</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="FirstName" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>Clinical</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="LastName" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>User1</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="IdentityProvider" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>1.3.6.1.4.1.12201.1</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="AssertingParty" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>sts.federationbroker.emergis.ca</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="PrimaryFactor" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="rid" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>6231684</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="NameID" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>clinical.user1</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="displayname" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="email" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="roles" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>NA</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="subjectLocalityIPAddress"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="grantByDelegateMeritOnly"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="obo" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="ProtectedNetwork" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="CompensatingFactors" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="IdentityVerificationSchemeRef"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>AL2</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="UAOIdentityVerificationSchemeRef"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="DelegationManagementSchemeRef"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="CredentialManagementSchemeRef"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue/>
+               </saml2:Attribute>
+               <saml2:Attribute Name="DisplayPrivacyReminder"
+                                NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>FALSE</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="uaoupi" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>555555555555</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="ServiceEntitlements" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>ConnectingOntario:UPI:555555555555</saml2:AttributeValue>
+               </saml2:Attribute>
+               <saml2:Attribute Name="AuthenticationLevel" NameFormat="urn:ehealth:names:idm:attribute">
+                  <saml2:AttributeValue>AL2</saml2:AttributeValue>
+               </saml2:Attribute>
+            </saml2:AttributeStatement>
+            <saml2:AuthnStatement AuthnInstant="2025-10-29T02:38:27.898Z">
+               <saml2:SubjectLocality Address="10.75.9.28"/>
+               <saml2:AuthnContext>
+                  <saml2:AuthnContextClassRef>urn:oasis:names:tc:SAML:2.0:ac:classes:TLSClient</saml2:AuthnContextClassRef>
+               </saml2:AuthnContext>
+            </saml2:AuthnStatement>
+         </saml2:Assertion>
+      </wsse:Security>
+      <wsa:MessageID xmlns:wsa="http://www.w3.org/2005/08/addressing">ID-2AF1C0BB97A2B22-00000000000000DB</wsa:MessageID>
+      <wsa:Action xmlns:wsa="http://www.w3.org/2005/08/addressing">OLISQuery</wsa:Action>
+      <wsa:From xmlns:wsa="http://www.w3.org/2005/08/addressing">
+         <wsa:Address>2.16.840.1.113883.3.59.3:0947</wsa:Address>
+      </wsa:From>
+      <wsa:To xmlns:wsa="http://www.w3.org/2005/08/addressing">
+         <wsa:Address>OLIS</wsa:Address>
+      </wsa:To>
+      <wsa:ReplyTo xmlns:wsa="http://www.w3.org/2005/08/addressing">
+         <wsa:Address>http://www.w3.org/2005/08/addressing/anonymous</wsa:Address>
+      </wsa:ReplyTo>
+   </soap:Header>
+   <soap:Body>
+      <Request xmlns="http://www.ssha.ca/2005/HIAL">
+         <Content>MSH|^~\&amp;|^2.16.840.1.113883.3.59.3:0947^ISO|CGTA0001|^OLIS^X500||20251028230404-0400||SPQ^Z01^SPQ_Q08|ID-2AF1C0BB97A2B22-00000000000000DB|T|2.3.1||||||8859/1&#xD;ZSH|6231684|Clinical User1&#xD;SPR|bbf62effd4fd4dc2a28cae23059777b5|R|Z_QryLabInfoForPatientID^^HL70471|@OBR.7^19991028000000-0400\T\20251028235959-0400~@QRD.7.1^25~@ZRP.1.1^2.16.840.1.113883.3.59.3:0947~@ZRP.1.2^UNIVERSITY HEALTH NETWORK~@PID.3.1^2000057188~@PID.8^M~@PID.7^20031212~@QRD.7.2.1^RD~@QRD.7.2.3^HL70126~@PID.3.4.2~@PID.3.4.3~@PID.3.5^JHN~@PID.3.9.1^ON~@PID.3.9.3^HL70347~@ZRP.1.13^ISO&#xD;</Content>
+      </Request>
+   </soap:Body>
+</soap:Envelope>
